@@ -10,7 +10,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration // IoC
 public class SecurityConfig {
-	
+
 	@Bean // IOC
 	public BCryptPasswordEncoder encodePWD() {
 		return new BCryptPasswordEncoder();
