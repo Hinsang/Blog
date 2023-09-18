@@ -37,7 +37,7 @@ public class User {
 	@Column(nullable = false, length = 100) // 해쉬 암호화를 위해 패스워드를 길게 설정
 	private String password;
 	
-	@Column(nullable = false, length = 50, unique = true)
+	@Column(nullable = false, length = 50)
 	private String email;
 
 	// @ColumnDefault("user")

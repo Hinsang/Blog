@@ -6,6 +6,7 @@
 <!-- 시큐리티 인증이 되었는지 확인 -->
 <sec:authorize access="isAuthenticated()">
 	<!-- property="principal" : 현재 유저 정보 객체에 접근, var="principal" : 현재 유저 정보를 principal 변수에 매핑 -->
+	<!-- 속성 principal을 변수 principal에 넣는다. -->
 	<sec:authentication property="principal" var="principal"/>
 </sec:authorize>
 
